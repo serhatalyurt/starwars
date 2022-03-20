@@ -1,0 +1,29 @@
+.film-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.film-card {
+  max-width: 300px;
+  min-width: 300px;
+  border: 1px solid;
+  background-color: antiquewhite;
+  margin: 10px;
+  padding: 0 10px;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.film-card--links {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.film-card--links > div {
+  padding: 5px;
+}

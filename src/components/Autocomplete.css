@@ -1,0 +1,30 @@
+.auto-complete {
+  margin: 0 10px;
+}
+
+.auto-complete--results {
+  position: fixed;
+  background-color: white;
+  z-index: 9;
+}
+
+.auto-complete--results > ul {
+  border: 1px solid;
+  max-width: 400px;
+  width: 100%;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.auto-complete--results > ul > li {
+  line-height: 30px;
+  font-size: 14px;
+  font-style: italic;
+  padding: 0 10px;
+}
+
+.auto-complete--results > ul > li:hover {
+  cursor: pointer;
+  background-color: aliceblue;
+}

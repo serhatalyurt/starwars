@@ -1,0 +1,18 @@
+.character-list {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.character-list--item {
+  flex: 1;
+  min-width: 150px;
+  border: 1px solid;
+  background-color: rgb(245, 245, 239);
+  margin: 10px;
+  padding: 0 10px 10px 10px;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+}
