@@ -9,7 +9,7 @@ the command line using:
 
     npm install
 
-You can now start developing the application using Webpack by typing:
+You can now start developing the application using Vite by typing:
 
     npm run dev
 
